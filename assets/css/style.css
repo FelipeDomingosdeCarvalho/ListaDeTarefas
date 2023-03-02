@@ -1,0 +1,42 @@
+:root{
+    --primary-color: rgb(47, 129, 147);
+    --primary-color-darker: rgb(17,86,102);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background: var(--primary-color);
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+h1{
+    padding: 20px 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 0 10px;
+}
+
+ul{
+    padding: 0 50px;
+}
